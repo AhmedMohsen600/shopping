@@ -1,0 +1,128 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test Component Should test the Product component 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <a
+        class="product__ProdcutCard-sc-496kmj-0 cYSWR"
+        href="/product/electronics/11"
+      >
+        <div
+          class="product__ImageHolder-sc-496kmj-2 kTucrI"
+        >
+          <img
+            class="product__ProductImage-sc-496kmj-5 cjdSpU"
+            src="https://fakestoreapi.com/img/71kWymZ+c+L._AC_SX679_.jpg"
+          />
+        </div>
+        <div
+          class="product__Holder-sc-496kmj-1 Rahim"
+        >
+          <h3
+            class="product__ProducTitle-sc-496kmj-3 ftYOGF"
+          >
+            Silicon Power 256GB SSD 3D NAND A55 SLC Cache Performance Boost SATA III 2.5
+          </h3>
+          <p
+            class="product__ProductDesc-sc-496kmj-4 hLKtJE"
+          >
+            3D NAND flash are applied to deliver high transfer speeds Remarkable transfer speeds that enable faster bootup and improved overall system performance. The advanced SLC Cache Technology allows performance boost and longer lifespan 7mm slim design suitable for Ultrabooks and Ultra-slim notebooks. Supports TRIM command, Garbage Collection technology, RAID, and ECC (Error Checking & Correction) to provide the optimized performance and enhanced reliability.
+          </p>
+          <span
+            class="product__Price-sc-496kmj-6 eKwkDR"
+          >
+            $109
+          </span>
+        </div>
+      </a>
+    </div>
+  </body>,
+  "container": <div>
+    <a
+      class="product__ProdcutCard-sc-496kmj-0 cYSWR"
+      href="/product/electronics/11"
+    >
+      <div
+        class="product__ImageHolder-sc-496kmj-2 kTucrI"
+      >
+        <img
+          class="product__ProductImage-sc-496kmj-5 cjdSpU"
+          src="https://fakestoreapi.com/img/71kWymZ+c+L._AC_SX679_.jpg"
+        />
+      </div>
+      <div
+        class="product__Holder-sc-496kmj-1 Rahim"
+      >
+        <h3
+          class="product__ProducTitle-sc-496kmj-3 ftYOGF"
+        >
+          Silicon Power 256GB SSD 3D NAND A55 SLC Cache Performance Boost SATA III 2.5
+        </h3>
+        <p
+          class="product__ProductDesc-sc-496kmj-4 hLKtJE"
+        >
+          3D NAND flash are applied to deliver high transfer speeds Remarkable transfer speeds that enable faster bootup and improved overall system performance. The advanced SLC Cache Technology allows performance boost and longer lifespan 7mm slim design suitable for Ultrabooks and Ultra-slim notebooks. Supports TRIM command, Garbage Collection technology, RAID, and ECC (Error Checking & Correction) to provide the optimized performance and enhanced reliability.
+        </p>
+        <span
+          class="product__Price-sc-496kmj-6 eKwkDR"
+        >
+          $109
+        </span>
+      </div>
+    </a>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
