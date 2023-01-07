@@ -1,4 +1,4 @@
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { fetchProducts } from '../../features/products/productsSlice';
 import { Container, Inner } from './styles/product-list';
@@ -8,11 +8,13 @@ export default function ProductList() {
   const dispatch = useDispatch();
   const products = useSelector((state) => state.products.data);
   const isLoading = useSelector((state) => state.products.loading);
-
+  const [category] = useState(
+    JSON.parse(localStorage.getItem('category')) || 'electronics'
+  );
   useEffect(() => {
     if (products.length) return;
-    dispatch(fetchProducts());
-  }, [dispatch, products.length]);
+    dispatch(fetchProducts(category));
+  }, [dispatch, products.length, category]);
 
   return isLoading ? (
     <div style={{ fontSize: '40px', textAlign: 'center' }}>Loading</div>

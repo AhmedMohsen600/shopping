@@ -3,9 +3,7 @@ import axios from 'axios';
 const categoryFilterURL = (category) =>
   `https://fakestoreapi.com/products/category/${category}`;
 
-export const getProducts = async (
-  category = JSON.parse(localStorage.getItem('category') || 'electronics')
-) => {
+export const getProducts = async (category) => {
   try {
     const response = await axios.get(categoryFilterURL(category));
     return response.data;
