@@ -9,7 +9,8 @@ export default function ProductList() {
   const products = useSelector((state) => state.products.data);
   const isLoading = useSelector((state) => state.products.loading);
   const [category] = useState(
-    JSON.parse(localStorage.getItem('category')) || 'electronics'
+    JSON.parse(localStorage.getItem('category')) ||
+      JSON.stringify('electronics')
   );
   useEffect(() => {
     if (products.length) return;
