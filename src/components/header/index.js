@@ -24,7 +24,7 @@ export default function Header() {
       <Container>
         <Nav>
           <BackArrow to="/">
-            {pathname === '/' ? `${current}` : 'Back'}
+            {pathname === '/' ? `${current} (${productLength})` : 'Back'}
           </BackArrow>
           <Categories>
             {data.map((categ) => (
