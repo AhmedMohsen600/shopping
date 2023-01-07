@@ -1,2 +1,2 @@
 export const HOME = '/';
-export const PAGE_DETAILS = '/page-details';
+export const PAGE_DETAILS = '/product/:id/:id';
