@@ -1,6 +1,7 @@
-jest.mock('axios');
 import axios from 'axios';
 import { getSinleProduct } from '../../apis/product';
+
+jest.mock('axios');
 
 describe('Test redux', () => {
   test('Should test Single product', async () => {
