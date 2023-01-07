@@ -67,7 +67,7 @@ Click [here](https://www.loom.com/share/5585c6bce3a447fcb393cbd186be8d19) to wat
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](#https://guileless-cascaron-3d262c.netlify.app/)
+- [Live Demo Link](#https://shopping-sage.vercel.app/)
 
 ## 🚀 Project Details
 
