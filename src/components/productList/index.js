@@ -8,14 +8,15 @@ export default function ProductList() {
   const dispatch = useDispatch();
   const products = useSelector((state) => state.products.data);
   const isLoading = useSelector((state) => state.products.loading);
-  const [category] = useState(
-    localStorage.getItem('category') || 'electronics'
-  );
 
   useEffect(() => {
     if (products.length) return;
-    dispatch(fetchProducts(category));
-  }, [dispatch, products.length, category]);
+    dispatch(
+      fetchProducts(
+        JSON.parse(localStorage.getItem('category')) || 'electronics'
+      )
+    );
+  }, [dispatch, products.length]);
 
   return isLoading ? (
     <div style={{ fontSize: '40px', textAlign: 'center' }}>Loading</div>
