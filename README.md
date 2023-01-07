@@ -61,7 +61,7 @@ Click [here](https://www.loom.com/share/5585c6bce3a447fcb393cbd186be8d19) to wat
 - **Develop webapp around an API**
 - **Conduct test to ensure all edge cases are covered**
 - **Create web page using given wireframe**
-- **Users can filter amount of movies displayed**
+- **Users can filter amount of categories displayed**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
