@@ -65,7 +65,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](#https://shopping-sage.vercel.app/)
+- [Live Demo Link](#https://guileless-cascaron-3d262c.netlify.app/)
 
 ## 🚀 Project Details
 
