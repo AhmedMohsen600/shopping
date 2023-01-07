@@ -8,12 +8,11 @@ export default function ProductList() {
   const dispatch = useDispatch();
   const products = useSelector((state) => state.products.data);
   const isLoading = useSelector((state) => state.products.loading);
-  const [category, setZoby] = useState(
+  const [category] = useState(
     JSON.parse(localStorage.getItem('category')) || 'electronics'
   );
   useEffect(() => {
     if (products.length) return;
-    setZoby(JSON.parse(localStorage.getItem('category')) || 'electronics');
     dispatch(fetchProducts(category));
   }, [dispatch, products.length, category]);
 
