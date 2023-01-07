@@ -9,9 +9,9 @@ export default function ProductList() {
   const products = useSelector((state) => state.products.data);
   const isLoading = useSelector((state) => state.products.loading);
   const [category] = useState(
-    JSON.parse(localStorage.getItem('category')) ||
-      JSON.stringify('electronics')
+    localStorage.getItem('category') || 'electronics'
   );
+
   useEffect(() => {
     if (products.length) return;
     dispatch(fetchProducts(category));
