@@ -23,7 +23,7 @@
 - [❓ FAQ](#faq)
 - [📝 License](#license)
 
-# 📖 The Meal <a name="about-project"></a>
+# 📖 Shopping <a name="about-project"></a>
 
 > In this project, a website for Meals is being build. The external API used for showing Meals and its details is [MealsDB API](https://www.themealdb.com/api.php). The webapp have 2 user interfaces.
 
@@ -37,6 +37,8 @@
 - Javascript
 - Jest
 - React js
+
+Click [here](https://www.loom.com/share/5585c6bce3a447fcb393cbd186be8d19) to watch a walk-through description, given by me.
 
 ### Tech Stack <a name="tech-stack"></a>
 
