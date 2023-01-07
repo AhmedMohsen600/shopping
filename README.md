@@ -18,6 +18,7 @@
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
+- [Credits](#credits)
 - [🙏 Acknowledgements](#acknowledgements)
 - [❓ FAQ](#faq)
 - [📝 License](#license)
@@ -201,12 +202,10 @@ Feel free to check the [issues page](https://github.com/Zainab-Alzubair/the-meal
 
 <!-- CREDITS -->
 
-## Credits
+## Credits <a name="credits"></a
 
-- The original design ideal by [Cindy Shin in Behance](https://www.behance.net/adagio07)
-- Project from [Microverse](https://bit.ly/MicroverseTN) html & css module
-- Images inspired by [Unsplash](unsplash.com)
-- Topic inspired by [Khadija Hamdani](https://www.researchgate.net/publication/329972741_Knowledge_based_entrepreneurship_the_role_of_networks)
+- The original design ideal by [Nelson Sakwa on Behance](https://www.behance.net/sakwadesignstudio)
+- Project from [Microverse](https://bit.ly/MicroverseTN) React module
 
 <!-- SUPPORT -->
 
