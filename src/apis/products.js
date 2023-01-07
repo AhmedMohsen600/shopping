@@ -1,7 +1,8 @@
 import axios from 'axios';
 
-const categoryFilterURL = (category) =>
-  `https://fakestoreapi.com/products/category/${category}`;
+const categoryFilterURL = (
+  category = JSON.parse(localStorage.getItem('category')) || 'electronics'
+) => `https://fakestoreapi.com/products/category/${category}`;
 
 export const getProducts = async (category) => {
   try {

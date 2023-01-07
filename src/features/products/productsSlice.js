@@ -9,7 +9,9 @@ const initialState = {
 
 export const fetchProducts = createAsyncThunk(
   'products/fetchProducts',
-  async (category) => {
+  async (
+    category = JSON.parse(localStorage.getItem('category')) || 'electronics'
+  ) => {
     const products = await getProducts(category);
     return products;
   }
