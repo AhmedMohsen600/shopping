@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { fetchProducts } from '../../features/products/productsSlice';
 import { Container, Inner } from './styles/product-list';
@@ -11,11 +11,10 @@ export default function ProductList() {
 
   useEffect(() => {
     if (products.length) return;
-    dispatch(
-      fetchProducts(
-        JSON.parse(localStorage.getItem('category')) || 'electronics'
-      )
-    );
+    const category = JSON.parse(localStorage.getItem('category'))
+      ? JSON.parse(localStorage.getItem('category'))
+      : 'electronics';
+    dispatch(fetchProducts(category));
   }, [dispatch, products.length]);
 
   return isLoading ? (
